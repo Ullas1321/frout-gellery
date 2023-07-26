@@ -7,7 +7,8 @@
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-tailwind color
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- tailwind color  -->
 <script>
     tailwind.config = {
       theme: {
@@ -21,14 +22,50 @@ tailwind color
   </script>
 </head>
 <body>
-    <header>
+    <header class="container mx-auto">
 
+      <nav class="">
+      <div class="navbar bg-base-100 indent-8	border border-red-500 my-12 p-5  rounded-full bg-[#F85559]">
+        <div class=" flex-1">
+         <ul class="flex gap-4 text-xl text-[#FFF] font-normal">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">All Fruits</a></li>
+         </ul>
+        </div>
+
+        <div class="flex-1 ">
+
+          <img src="images/logo.png" alt="">
+          <h2 class="text-4xl font-bold text-[#FFF]">Fruit Burst</h2>
+        </div>
+
+
+        <div class="">
+          <div class="form-control w-80 flex-1  rounded-full relative">
+
+            <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-full" />
+            <a class=" absolute left-52 bottom-2 text-xl" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            </a>
+ 
+          </div>
+          <div class="dropdown dropdown-center">
+            
+            
+             
+          </div>
+        </div>
+      </div>
+    </nav>
     </header>
-    <main>
+    <main class="container mx-auto">
 
     </main>
     <footer>
-      
+
     </footer>
 </body>
 </html>
